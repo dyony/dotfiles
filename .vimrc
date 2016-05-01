@@ -11,8 +11,12 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=0
 
-"対応する括弧のハイライトを非表示
-let loaded_matchparen = 1
-
 "C言語インデント
 set cindent
+
+"入力中のコマンド表示
+set showcmd
+
+"空白文字の可視化
+set list
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
